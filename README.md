@@ -1,19 +1,16 @@
 
 # Repositório Exemplo Antares
-
+raymond !!!!
 Esse repositório serve como exemplo de arquitetura dos projetos de eletrônica da Equipe Antares de Foguetemodelismo e também serve como um guia para contribuir com tais projetos. Representado nesse repositório está um projeto simples para um detector de altura, que utiliza um ESP32, dois barômetros BMP280/BME280, um LED e um resistor, escrito em ESPIDF (usando C).
 
 Este README.md está dividido nas seguintes secções:
 
-- [Dependências](#dependências)
-
-- [Ambiente de Desenvolvimento](#ambiente-de-desenvolvimento)
-
-- [Código](#código)
-
-- [Hardware](#hardware)
-
-- [Contribuição](#contribuição)
+- [Repositório Exemplo Antares](#repositório-exemplo-antares)
+  - [Dependências](#dependências)
+  - [Ambiente de Desenvolvimento](#ambiente-de-desenvolvimento)
+  - [Código](#código)
+  - [Hardware](#hardware)
+  - [Contribuição](#contribuição)
 
 ## Dependências
 
