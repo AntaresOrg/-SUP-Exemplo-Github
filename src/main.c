@@ -41,6 +41,7 @@ void app_main(void)
         return;
     }
 
+    //mudança_teste
     // Initialize BMP280 sensors
     bmp280_t *bmp1 = bmp280_init(BMP280_ADDR_1, "BMP1");
     bmp280_t *bmp2 = bmp280_init(BMP280_ADDR_2, "BMP2");
