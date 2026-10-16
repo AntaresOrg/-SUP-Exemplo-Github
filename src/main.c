@@ -67,7 +67,7 @@ void app_main(void)
 
         if (!isfinite(altitude1) || !isfinite(altitude2)) {
             gpio_set_level(LED_GPIO, 0);
-        } else if ((altitude1 + altitude2) / 2.0f > ALTITUDE_THRESHOLD_M) {
+        } else if (altitude1 / 2.0f > ALTITUDE_THRESHOLD_M) {
             gpio_set_level(LED_GPIO, 1);
         } else {
             gpio_set_level(LED_GPIO, 0);
